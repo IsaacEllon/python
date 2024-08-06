@@ -13,6 +13,7 @@ x={  #Dict
     "nome":"Isaac"
 }
 x={5,7,4,5,4,8} # set - não repete valores
+x=frozenset({5,7,4,5,4,8}) #frozenset - congela o set
 #print(x.real)
 #print(x.imag)
 
