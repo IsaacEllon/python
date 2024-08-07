@@ -1,0 +1,3 @@
+aula=""
+
+print(bool(aula))
