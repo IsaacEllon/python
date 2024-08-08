@@ -21,5 +21,8 @@ canal="CFB Cursos"
 
 #data=cidade+ ", "+str(dia)+" de "+mes+" de "+str(ano)
 data="{}, {} de {} de {}\n \"{}\""
+#\' \"" \n \r \t \b
+
 print(data.format(cidade,dia,mes,ano,canal))
+
 
