@@ -4,7 +4,7 @@ carros=[
     ["Ano",2016]
 ] #matriz
 
-carros.append(["Cor", "Prata"])
+
 carros[2][1]=2019
 
 print(carros[0][1])

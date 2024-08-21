@@ -14,5 +14,6 @@ while(sorteado!=jogador):
         print("ERRO, o número é menor")
     erro+=1
     jogador=int(input("Digite seu número: "))
-os.system("cls")
+
 print("Número "+ str(jogador) + ", você acertou em " + str(erro+1) + " tentativas")
+50
