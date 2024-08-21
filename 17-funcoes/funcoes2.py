@@ -1,9 +1,25 @@
-n1=15
-n2=7
+valores=[1,5,3,2]
 
-def somar():
-    r=n1+n2
-    print("Soma de " + str(n1) + " e " + str(n2) + " = " + str(r))
+def somar(*num):
+    r=0
+    for n in num:
+        r+=n
+
+    print("Soma = " + str(r))
     print("Youtube.com\n")
 
-somar()
+def carros(c="Golf"):
+    print("Modelo: " + c)
+
+carros("HRV")
+
+somar(valores)
+
+
+"""
+def textos(*txt):
+    for t in txt:
+        print(t)
+
+textos("CFB Cursos", "Python", "Canal", "Curso", "Computador")
+"""
