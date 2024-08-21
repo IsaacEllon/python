@@ -6,10 +6,19 @@ carro={
     "Cor":"Prata"
 } #dictionary
 
+carro["Cambio"]="Automatico"
+carro.pop("Cambio") #del carro["Cambio"]
+
+
 fab=carro["Fabricante"]  #fab=carro.get("Fabricante")
 
 carro["Cor"]="Preto"
 
-for x in carro:
+print("Tamanho do Dictionary: "+ str(len(carro)))
+
+if "Modelo" in carro:
+    print("Sim, Modelo é uma chave \n")
+
+for c,v in carro.items():
     #print(x) #Chave
-    print(carro[x]) #Valor
+    print(c + ": " + v) #Valor
