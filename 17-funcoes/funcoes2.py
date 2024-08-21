@@ -1,4 +1,4 @@
-valores=[1,5,3,2]
+#valores=[1,5,3,2]
 
 def somar(*num):
     r=0
