@@ -16,4 +16,3 @@ while(sorteado!=jogador):
     jogador=int(input("Digite seu número: "))
 
 print("Número "+ str(jogador) + ", você acertou em " + str(erro+1) + " tentativas")
-50

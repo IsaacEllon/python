@@ -19,16 +19,21 @@ class Carro:
     def andar(self):
         if(self.ligado):
             print("Andando")
-        elif         
+        else:
             print("Carro parado")
+
 c1=Carro(200,False,"Preto")
 c2=Carro(20,False,"Branco")
 c3=Carro(350,False,"Vermelho")
+
+c1.ligar()
 
 c1.mostrar()
 c2.mostrar()
 c3.mostrar()
 
+c1.andar()
+c2.andar()
 
 
 
