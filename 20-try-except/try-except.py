@@ -1,6 +1,6 @@
-num="ISaac"
+num="Isaac"
 
-if type(num) is int:
+if not type(num) is int:
     raise Exception("Somente números permitidos") #raise - gera uma execeção
 else:
     print(num)
