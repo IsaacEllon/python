@@ -11,4 +11,4 @@ navegador.find_element('xpath', '//*[@id="section-10356508"]/section/div[2]/div/
 navegador.find_element('xpath','//*[@id="section-10356508"]/section/div[2]/div/div[2]/form/div[1]/div/div[2]/div/input').send_keys("isaacellon5@gmail.com") #send_keys - escreve no campo
 navegador.find_element('xpath','//*[@id="section-10356508"]/section/div[2]/div/div[2]/form/div[1]/div/div[3]/div/input').send_keys("85989878293")
 
-
+navegador.find_element('xpath', '//*[@id="section-10356508"]/section/div[2]/div/div[2]/form/button/span/b').click()
